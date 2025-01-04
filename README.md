@@ -53,13 +53,13 @@ for k in range(1,11):
 ```
 **Visualization of the Elbow plot**
 
-![Elbow method]([https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/13e8271a-1c0a-4873-b9ef-072af208ef90](https://github.com/Habirah-Mahmood/Customer-Segmentation-Analysis/blob/main/1.%20Visualization%20of%20elbow%20plot.png))
+![Elbow method](https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/13e8271a-1c0a-4873-b9ef-072af208ef90)
 
 3. I then formed clusters based on the recommended number of clusters, below is a visualization
 
 **Clustter Visualization**
 
-![Customer segments]([https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/d9fc778a-7764-482a-a410-47bbb393d97c](https://github.com/Habirah-Mahmood/Customer-Segmentation-Analysis/blob/main/2.%20cluster%20visualization.png))
+![Customer segments](https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/d9fc778a-7764-482a-a410-47bbb393d97c)
 
 ## Cluster Analysis
 1. Finding the population size of each cluster
@@ -68,7 +68,7 @@ customer_num = df_scaled.groupby('Cluster')['MntTotal'].count().reset_index()
 ```
 **A bar plot of Number of customers per cluster**
 
-![cluster sizes]([https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/3b89b4ce-b1e2-46a0-bbb3-3603c1f94643](https://github.com/Habirah-Mahmood/Customer-Segmentation-Analysis/blob/main/3.%20A%20bar%20plot%20of%20Number%20of%20customers%20per%20cluster.png))
+![cluster sizes](https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/3b89b4ce-b1e2-46a0-bbb3-3603c1f94643)
 
 2. Average income per cluster
 ```
@@ -76,7 +76,7 @@ df_clustered['Avg_income'] = df_clustered.groupby('Cluster')['Income'].mean()
 ```
 **Visual representation of Average income per cluster**
 
-![Average income]([https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/fc60f97a-d71c-4d6f-aaf9-70814f370253](https://github.com/Habirah-Mahmood/Customer-Segmentation-Analysis/blob/main/4.%20Visual%20representation%20of%20Average%20income%20per%20cluster.png))
+![Average income](https://github.com/solomonadupa/Customer-Segmentation-Analysis/assets/160836596/fc60f97a-d71c-4d6f-aaf9-70814f370253)
 
 3. Average Product Consumption per cluster
 ```
@@ -95,4 +95,3 @@ Avg_Consumption
 **Cluster 2**; Customers within this cluster have the second highest purchasing power however much the average income is the least. The mininimum level of Education is also 2. These clients are limited but their income but are a great group to target at the beginning/end of the month to maximise sales.
 
 **Cluster 3**; This cluster earns the highest income but their desire to purchase is just low. This could be due to failure of the business to sufficiently influence these customers. The business should therefore try to convert these clients into paying customers as they have a huge potential through offers, special discounts etc.
-
