@@ -95,3 +95,5 @@ Avg_Consumption
 3. **Cluster 2**; Customers within this cluster have the second highest purchasing power however much the average income is the least. The mininimum level of Education is also 2. These clients are limited but their income but are a great group to target at the beginning/end of the month to maximise sales.
 
 4. **Cluster 3**; This cluster earns the highest income but their desire to purchase is just low. This could be due to failure of the business to sufficiently influence these customers. The business should therefore try to convert these clients into paying customers as they have a huge potential through offers, special discounts etc.
+
+In conclusion, each cluster presents unique opportunities for growth. By targeting Cluster 0’s numbers, retaining Cluster 1’s high-value customers, strategically timing offers for Cluster 2, and converting Cluster 3’s high earners, the business can maximize sales, improve engagement, and optimize marketing strategies effectively.
